@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basel Mohamed - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      scroll-behavior: smooth;
+    }
+    section {
+      padding: 80px 20px;
+    }
+    a {
+      transition: color 0.3s;
+    }
+    a:hover {
+      color: #1E40AF;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800">
+
+<!-- Navbar -->
+<nav class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+  <div class="max-w-5xl mx-auto flex justify-between items-center p-4">
+    <div class="font-bold text-xl text-gray-900">Basel Mohamed</div>
+    <ul class="flex space-x-6">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero / About Me -->
+<section id="home" class='pt-32 bg-cover bg-no-repeat  bg-[url("./images/bg.jpg")] gap-4 '>
+  <h1 class="text-4xl font-bold mb-4 text-white">Hi, I'm Basel Mohamed</h1>
+  
+  <img class="w-[300px] mb-4 " src="./images/Baselmohamed.png" alt="pic">
+  
+  <p class="text-lg text-white mb-6 w-[800px]">
+    Front-End Engineer focused on building clean, responsive, and user-friendly interfaces. I enjoy turning ideas and designs into smooth, high-quality user experiences and continuously improving my front-end development skills.
+  </p>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="bg-white">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-8 text-gray-900">Skills</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div>
+        <p class="mb-1 font-semibold">HTML</p>
+        <div class="w-full bg-gray-200 h-3 rounded">
+          <div class="bg-blue-600 h-3 rounded" style="width: 100%"></div>
+        </div>
+      </div>
+      <div>
+        <p class="mb-1 font-semibold">CSS</p>
+        <div class="w-full bg-gray-200 h-3 rounded">
+          <div class="bg-blue-600 h-3 rounded" style="width: 85%"></div>
+        </div>
+      </div>
+      <div>
+        <p class="mb-1 font-semibold">JavaScript</p>
+        <div class="w-full bg-gray-200 h-3 rounded">
+          <div class="bg-blue-600 h-3 rounded" style="width: 90%"></div>
+        </div>
+      </div>
+      <div>
+        <p class="mb-1 font-semibold">jQuery</p>
+        <div class="w-full bg-gray-200 h-3 rounded">
+          <div class="bg-blue-600 h-3 rounded" style="width: 80%"></div>
+        </div>
+      </div>
+      <div>
+        <p class="mb-1 font-semibold">React.js / Next.js</p>
+        <div class="w-full bg-gray-200 h-3 rounded">
+          <div class="bg-blue-600 h-3 rounded" style="width: 90%"></div>
+        </div>
+      </div>
+      <div>
+        <p class="mb-1 font-semibold">Bootstrap / Tailwind</p>
+        <div class="w-full bg-gray-200 h-3 rounded">
+          <div class="bg-blue-600 h-3 rounded" style="width: 80%"></div>
+        </div>
+      </div>
+      <div>
+        <p class="mb-1 font-semibold">Type Script</p>
+        <div class="w-full bg-gray-200 h-3 rounded">
+          <div class="bg-blue-600 h-3 rounded" style="width: 70%"></div>
+        </div>
+      </div>
+      <div>
+        <p class="mb-1 font-semibold">GitHub</p>
+        <div class="w-full bg-gray-200 h-3 rounded">
+          <div class="bg-blue-600 h-3 rounded" style="width: 80%"></div>
+        </div>
+      </div>
+      <div>
+        <p class="mb-1 font-semibold">SOLID Principles </p>
+        <div class="w-full bg-gray-200 h-3 rounded">
+          <div class="bg-blue-600 h-3 rounded" style="width: 90%"></div>
+        </div>
+      </div>
+      <div>
+        <p class="mb-1 font-semibold">OOP</p>
+        <div class="w-full bg-gray-200 h-3 rounded">
+          <div class="bg-blue-600 h-3 rounded" style="width: 90%"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="bg-black">
+  <div class="max-w-5xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-8 text-white">Projects</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      
+      <!-- Project 1 -->
+      <div class="p-4 border rounded shadow-sm bg-white">
+        <img src="./images/Rour.png" alt="Handmade Bags" class="rounded mb-4">
+        <h3 class="font-semibold text-xl mb-2 text-gray-900">Handmade Bags E-commerce</h3>
+        <p class="text-gray-700 mb-2">
+          A full commercial site for handmade bags using React.js, Next.js, Tailwind.
+        </p>
+        <a href="http://rourboutique.com" class="text-blue-600 mr-4">Live</a>
+        <a href="https://github.com/BaselMohamed0" class="text-blue-600">GitHub</a>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="p-4 border rounded shadow-sm bg-white">
+        <img src="./images/Hangman.png" alt="Hangman Game" class="rounded mb-4">
+        <h3 class="font-semibold text-xl mb-2 text-gray-900">Hangman Game</h3>
+        <p class="text-gray-700 mb-2">Simple Hangman game built with HTML, CSS, JS.</p>
+        <a href="https://baselmohamed0.github.io/Hang-Man/" class="text-blue-600 mr-4">Live</a>
+        <a href="https://github.com/BaselMohamed0" class="text-blue-600">GitHub</a>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="p-4 border rounded shadow-sm bg-white">
+        <img src="./images/X,o.png" alt="Tic Tac Toe" class="rounded mb-4">
+        <h3 class="font-semibold text-xl mb-2 text-gray-900">Tic Tac Toe</h3>
+        <p class="text-gray-700 mb-2">Classic Tic Tac Toe game built with HTML, CSS, JS.</p>
+        <a href="https://baselmohamed0.github.io/X.O/" class="text-blue-600 mr-4">Live</a>
+        <a href="https://github.com/BaselMohamed0" class="text-blue-600">GitHub</a>
+        
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="bg-white">
+  <div class="max-w-lg mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-8 text-gray-900">Contact Me</h2>
+    <p class="mt-6 text-gray-700">
+      Email: <a href="mailto:baselmohamed0@outlook.com" class="text-blue-600">baselmohamed0@outlook.com</a><br>
+      Phone: <a href="tel:+201000678080" class="text-blue-600">+201000678080</a><br>
+      LinkedIn: <a href="https://www.linkedin.com/in/basel-mohamed-807095384/" class="text-blue-600">View Profile</a><br>
+      GitHub: <a href="https://github.com/BaselMohamed0" class="text-blue-600">View Repos</a>
+    </p>
+    <!-- <form class="flex flex-col gap-4">
+      <input type="text" placeholder="Your Name" class="p-3 border rounded">
+      <input type="email" placeholder="Your Email" class="p-3 border rounded">
+      <textarea placeholder="Your Message" class="p-3 border rounded"></textarea>
+      <button class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">Send</button>
+    </form> -->
+    
+  </div>
+</section>
+
+</body>
+</html>
